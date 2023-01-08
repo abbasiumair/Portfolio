@@ -1,0 +1,50 @@
+div.gallery {
+    margin: 5px;
+      border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    }
+    
+    div.gallery:hover {
+    border-color: 1px solid #777;
+    }
+    
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+    
+    div.desc {
+        grid-area: 2 / 2 / span 2 / span 3;
+        text-align: justify;
+        padding: 1% 2% 2% 2%;
+        background-color: ghostwhite;
+        opacity: .9;
+        margin: 0% 5% auto 5%;
+        border: 1px black solid;
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        font-weight: 400;
+        line-height: 1.5rem;
+        box-shadow: 2px 2px 5px 1px black;
+    }
+
+    body {
+        margin: 0;
+        background-color:rgb(37, 36, 36) ;
+        grid-area: 2 / 2 / span 2 / span 3;
+        text-align: justify;
+        padding: 1% 2% 2% 2%;
+        background-color: ghostwhite;
+        opacity: .9;
+        margin: 0% 5% auto 5%;
+        border: 1px black solid;
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        font-weight: 400;
+        line-height: 1.5rem;
+        box-shadow: 2px 2px 5px 1px black;
+        background-image: url("elden\ ring\ background.jpg");
+    background-size: 175%;
+    background-repeat: no-repeat;
+    }
